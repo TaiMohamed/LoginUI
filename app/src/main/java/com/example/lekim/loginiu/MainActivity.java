@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickFacebook (View view) {
-        Uri webpage = Uri.parse("https://www.facebook.com/pogofdev.net/");
+        Uri webpage = Uri.parse("https://www.facebook.com/lekimtantai/");
         Intent gotoFacebook = new Intent(Intent.ACTION_VIEW, webpage);
         if (gotoFacebook.resolveActivity(getPackageManager()) != null) {
             startActivity(gotoFacebook);
